@@ -27,4 +27,5 @@ public class Post {
 	@ManyToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name = "id", referencedColumnName = "id")
 	private Subreddit subreddit;
+	
 }
